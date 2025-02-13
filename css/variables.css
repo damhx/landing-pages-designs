@@ -1,6 +1,19 @@
-@import url(variables.css);
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #080808;
+    --color-3: #AB2706;
+    --color-4: #E5B94B;
+
+}
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../storage/font/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../storage/font/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Medium.ttf);
 }
