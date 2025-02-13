@@ -1,3 +1,122 @@
-:root{
-    --color1: #ffffff;
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article_container{
+    display: flex;
+    width: 500px;
+    height: 415px;
+    position: absolute;
+    left: 828px;
+    top: 82px;
+    display: flex;
+    gap: 32px;
+}
+
+.div_text_content {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.div_text_content h1 {
+    font-size: 88px;
+    color: var(--color-2);
+    display: flex;
+    font-size: 64px;
+    align-items: flex-start;
+    font-family: "Avenir-Heavy";
+    margin-bottom: 32px;
+}
+
+.div_text_content p {
+    width: 500px;
+    height: 144px;
+    font-size: 26px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    margin-bottom: 32px;
+}
+
+.div_text_content .button_2 {
+    width: 158px;
+    height: 54px;
+    padding: 12px 25px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 16px;
+    /* cursor: pointer; */
+    font-size: 18px;
+    font-family: "Avenir-Roman";
+    margin-bottom: 88px;
+}
+
+.div_img{
+    padding-top: 0px;
+    display: flex;
+}
+
+.div_img img{
+    position: absolute;
+    top: 67px;
+    padding-top: 0px;
+}
+
+.article_container2 {
+    display: flex;
+    width: 500px;
+    height: 334px;
+    position: absolute;
+    left: 828px;
+    top: 538px;
+    gap: 40px;
+    margin-top: 88px;
+}
+
+.div_text_content1 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    
+}
+
+.div_text_content1 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
+    margin-bottom: 40px;
+    margin-top: 4px;
+}
+
+#number{
+    font-size: 32px;
+    font-family: "Avenir-Heavy";
+    opacity: 50%;
+}
+
+
+.div_text_content2 {
+    margin-bottom: 20px;
+    align-items: flex-start;
+    position: absolute;
+    top: 240px;
+    
+}
+
+.div_text_content2 p {
+    display: flex;
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 1.4;
+    opacity: 80%;   
+    font-family: "Avenir-Roman";
+    line-height: 32.78px;
 }

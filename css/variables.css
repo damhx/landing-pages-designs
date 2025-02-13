@@ -5,5 +5,15 @@
 
 @font-face {
     font-family: "AvenirLTStd-Black";
-    src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
+    src: url(../storage/font/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
 }
